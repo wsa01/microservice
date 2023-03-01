@@ -12,7 +12,10 @@ spring:
     password: root123123
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
 
 #spring.jpa.show-sql: true
 
